@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = ["localhost","0.0.0.0:8000"]
 
 CSRF_TRUSTED_ORIGINS = [
-    "http://localhost:8000"
+    "http://localhost:8000",
 ]
 
 
@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "home"
+    "home",
 ]
 
 MIDDLEWARE = [
