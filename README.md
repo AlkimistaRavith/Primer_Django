@@ -2,8 +2,18 @@
 Clases Django Mod 6
 
 PASOS:
+    ##crear entorno
 python -m venv entorno
+    ##activar entorno
 source entorno/bin/activate
-pip install django ##Instala Djgango
-django-admin startproject proyecto .  ##Levanta proyecto
-python manage.py runserver ##correr servidor
+    ##Instala Djgango
+pip install django 
+    ##Levanta proyecto
+django-admin startproject proyecto .  
+    ##correr servidor
+python manage.py runserver 
+    ##Migraciones
+python manage.py makemigrations
+python manage.py migrate
+    ##Crear app
+python manage.py startapp 
